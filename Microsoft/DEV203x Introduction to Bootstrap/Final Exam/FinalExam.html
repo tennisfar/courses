@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm</title>
+    <link rel="stylesheet" href="Styles/bootstrap.min.css"/>
+</head>
+<body>
+
+<form role="form">
+    <div class="container form-horizontal">
+        <div class="form-group">
+            <label for="name" class="col-sm-3 control-label">Name:</label>
+
+            <div class="col-sm-6">
+                <div class="input-group">
+          <span class="input-group-addon">
+            <span class="glyphicon-user"></span>
+          </span>
+                    <input type="text" class="form-control" name="name" id="name"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="form-group has-error has-feedback">
+    <label for="address" class="control-label col-md-3">Address:</label>
+    <div class="col-md-6">
+        <input type="text" name="address" id="address" class="form-control" />
+        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+</div>
+
+<script src="Scripts/jquery-1.11.2.min.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>
